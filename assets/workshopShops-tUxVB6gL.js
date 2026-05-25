@@ -1,0 +1,1 @@
+function r(n,t){const e={kind:"aipreneur-student",studentId:n,name:t,ts:Date.now()};return JSON.stringify(e)}function u(n){try{const t=JSON.parse(n);return(t==null?void 0:t.kind)!=="aipreneur-student"||typeof t.studentId!="string"||!t.studentId?null:t}catch{return null}}export{r as b,u as p};
